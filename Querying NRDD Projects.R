@@ -62,9 +62,9 @@ chr_list <- paste(query[[1]], collapse ='|')
 
 Filtered_Projects <- Projects %>%
   filter(grepl(chr_list, project_title, ignore.case = TRUE)) # |
-  # grepl(query, project_description, ignore.case = TRUE) |
-  # grepl(query, project_benefits, ignore.case = TRUE) |
-  # grepl(query, project_outcome, ignore.case = TRUE))
+  # grepl(chr_list, project_description, ignore.case = TRUE) |
+  # grepl(chr_list, project_benefits, ignore.case = TRUE) |
+  # grepl(chr_list, project_outcome, ignore.case = TRUE))
 
 ############ Export and Save as XlSX file in your desired directory ------------
 
