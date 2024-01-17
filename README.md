@@ -1,3 +1,3 @@
 ## Cleaning NRDD Data
-Use this code to read NRDD data into R and format/re-format data fields.
+This code demonstrates how to read HTML files from the NRDD and reformat the data fields into proper formatting.
 
